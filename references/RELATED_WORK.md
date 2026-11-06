@@ -1,0 +1,14 @@
+# Closest-work comparison and attribution
+
+This is a task-and-access comparison, not a claim of exhaustive priority.
+
+1. **Exact universal transformations of unknown unitaries** — [arXiv:1909.01366v2](https://arxiv.org/html/1909.01366v2), particularly its exact conjugation/inversion analysis; [arXiv:1706.03481](https://arxiv.org/abs/1706.03481). Exterior-power and antisymmetric constructions are inherited mathematical machinery. Those works have coherent unitary access, not ordinary destructive classical-output measurement calls. The current result is an exact measurement-output interface conversion with degenerate projector coherence and an adaptive destructive-query converse.
+2. **Learning unknown measurements** — [arXiv:1103.0480](https://arxiv.org/abs/1103.0480). Reproduction of classical outcome statistics is weaker than realizing \(\rho\mapsto P_a\rho P_a\) as a quantum-output map.
+3. **Instrument simulation using available postmeasurement states** — [arXiv:2503.00956v2](https://arxiv.org/html/2503.00956v2). Access to chosen projective instruments and their postmeasurement states is stronger than destructive black-box statistics.
+4. **Value of postmeasurement-state access** — [arXiv:2602.22126v1](https://arxiv.org/html/2602.22126v1) and [arXiv:2602.12258v1](https://arxiv.org/html/2602.12258v1). These establish advantages of the stronger interface, but do not synthesize it from the weaker oracle.
+5. **Measurement storage and retrieval** — Turoboś, Marcinkowska and Puchała, [arXiv:2610.36972v1](https://arxiv.org/html/2610.36972v1), Definitions 2 and 7 and Section 8. The retrieval target is the quantum-to-classical POVM channel, not the reference-preserving Lüders output; this is a particularly important distinction despite superficially similar success coefficients.
+6. **CP-order support constraints** — [Regula–Takagi](https://doi.org/10.1038/s41467-021-24699-0) is relevant background for the unsharp-effect obstruction; the support-order principle is not claimed as new.
+
+Relevant internal comparators: [Quantum-Detector-Memory](https://github.com/GoGoKo699/Quantum-Detector-Memory), [Quantum-Program-Composition](https://github.com/GoGoKo699/Quantum-Program-Composition), [Quantum-Order-Distillation](https://github.com/GoGoKo699/Quantum-Order-Distillation), [Canonical-Purification-Cost](https://github.com/GoGoKo699/Canonical-Purification-Cost), and [Quantum-Conditional-Learning](https://github.com/GoGoKo699/Quantum-Conditional-Learning). Their targets respectively concern calibration information, unitary Choi-program composition, coherent-order channel recovery, purification from samples, and conditional-state prediction. None directly establishes the destructive-oracle Lüders lifting theorem.
+
+**Editorial boundary:** the result establishes a sharp exact query onset, not a practical efficient detector upgrade, optimal success probability, or an approximate-resource law.
