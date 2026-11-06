@@ -1,0 +1,23 @@
+# Quantum Measurement Lifting
+
+Question: exact conversion of an unknown destructive PVM channel into its canonical Lüders instrument.
+
+Story route: README.md -> science/README.md -> learning/WORKED_EXAMPLE.md.
+Theorem route: science/model.md -> science/construction.md -> science/converse.md -> science/boundaries.md.
+Study route: learning/README.md -> learning/WATROUS_BRIDGE.md -> learning/MILESTONES.md.
+Reproduction route: verification/README.md -> verification/run_all.py.
+Attribution: references/RELATED_WORK.md and references/references.bib.
+
+The sole educational anchor is John Watrous, The Theory of Quantum Information (2018). The map has exactly M01-M30, split 12 background and 18 research milestones. It contains no personal coaching or learner progress.
+
+Preserve these distinctions:
+- Supplied access is destructive and classical-output; no coherent unknown unitary or detector dilation is given.
+- The target is the canonical Lüders instrument, not arbitrary hidden physical back-action.
+- Success is input independent and common to all output labels; it may depend on the PVM.
+- The exact onset is d calls for every nontrivial rank partition, even binary; the trivial one-outcome case is zero calls.
+- The probabilities 1/d^2 and 1/(d r_max) are constructions, not success-probability optima.
+- Coherence within degenerate sectors and with references is required.
+- The full-rank no-go is exact and family-dependent, not an approximate impossibility.
+- Failure may consume the input. Fresh-input retry costs are not same-input recovery.
+- Known singlet preparation, routing and workspace are resources, not an efficient fault-tolerant implementation claim.
+- Finite numerical and repository checks supplement proofs; local checks do not certify hosted rendering or publication priority.
